@@ -73,8 +73,43 @@ In industry, the requirements and information gathering would likely be consider
 I will be implementing a hybrid approach - using Agile Principles and structured algorithm creation to create a feature-based development pipeline that makes use of Test Driven Development. Tests will be identified during the Algorithm process.
 
 ## Algorithm design
-Choice and construction of the algorithms required for this programme are intrinsinctly linked to the features required.
-B
+
+The choice and construction of the algorithms required for this project are intrinsincally linked to the features defined in the assessment brief.
+
+The requirement "North Sussex Judo requires a program to capture the following information"(Assignment Brief, 2025, paraphrased) gives us a list of program inputs for our athlete.
+
+We will use this list to begin defining the scope of our algorithm
+
+### (START)
+
+**[INPUT_data](docs/ATHLETE_data.md)**
+
+This input data is our entry point into an algorithm that will transform this data and "output the following information"(Assignment Brief, 2025):
+
+### [BEGIN PROCESS]
+
+**[U](docs/INPUT_validation.md)**
+**[INPUT_validation](docs/INPUT_validation.md)**
+**[OUTPUT_validation](docs/OUTPUT_validation.md)**
+
+### [END PROCESS]
+
+**[OUTPUT_data](docs/OUTPUT_data.md)**
+
+
+### (STOP)
+This combination of input and output gives us the bounds for our program execution. We now have **(START)**, and **(END)**.
+
+
+Supplemental data for **Process**
+It's almost time to map the steps required to generate this, after defining some additional criteria:
+> Ability to register additional athletes
+
+
+Additional output specifics:
+
+
+
 (flowcharts, pseudocode, explanation)
 
 ## Steps from algorithm to code
