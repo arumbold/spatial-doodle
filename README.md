@@ -1,4 +1,4 @@
-# HND Digital Technologies for England (Cyber Security).
+# HND Digital Technologies for England (Cyber Security)
 ## Module 4: Programming Assignment - Task 1
 
 >This repository holds my __"North Sussex Judo"__ programming project.
@@ -37,14 +37,21 @@ pip install -r requirements.txt
 ## Usage
 
 To run the Graphical Application
-``` bash
-python src/main.py
-```
 
-To generate a monthly report for
-## How To: Run the Tests for the application
-``` bash
-spatial-doodle$ python main.py
-```
+> python src/main.py
 
-## How To:
+
+To generate the monthly Training Fee Report
+> python src/main.py report
+
+Other Commands available can be run in the same way
+> python  src/main.py *[command]*
+
+
+```
+Commands available:
+
+   report       : Create the Athlete Training Fee Report
+   diagnostic   : Checks the core program functions with known data
+   help         : Show usage information
+```
