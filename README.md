@@ -2,20 +2,25 @@
 ## Module 4: Programming Assignment - Task 1
 
 >This repository holds my __"North Sussex Judo"__ programming project.
->
+> Directions to set up and run the program are shown at the top.
 >__Fictional Entities__
 > AQ Digital Solutions and North Sussex Judo refer to the
 > HND Vocational Scenario and are used for Assessment purposes.
+> Any similarity to existing organisations is unintended, and should
+> be considered in the spirit and context in which this project exists.
+
+Jump to the **[North Sussex Judo Report](#Introducing-North-Sussex-Judo)**
 
 ### **Repository Information:** spatial-doodle
 
 The latest version of this document and program is always available at:
 `https://github.com/arumbold/spatial-doodle`
 
+Details about what information is contained, and where to find it are here:
 **[Repository Structure](docs/repository_structure.md)**
 
 ## License & Authorship Statement
-Python Source-Code, documents, branding and imagery in this repository
+Python Source Code, documents, branding & imagery in this repository
 are published under the MIT Licence and are my own work.
 See the [LICENCE](LICENCE) file for details.
 
@@ -57,3 +62,34 @@ Commands available:
    diagnostic   : Checks the core program functions with known data
    help         : Show usage information
 ```
+
+# Introducing North Sussex Judo
+
+This project forms part of the __HND Digital Technologies For England (Cyber Security)__ programme.
+It demonstrates the full project lifecycle from getting a design brief right through to the creation of a fully-featured UI driven application.
+
+In industry, the requirements and information gathering would likely be considered a part of the development process, which is one area where making use of Agile Development would be at a clear advantage as compared to a more pre-structured, waterfall design. For this project, the requirements are already known and clear.
+
+I will be implementing a hybrid approach - using Agile Principles and structured algorithm creation to create a feature-based development pipeline that makes use of Test Driven Development. Tests will be identified during the Algorithm process.
+
+## Algorithm design
+Choice and construction of the algorithms required for this programme are intrinsinctly linked to the features required.
+B
+(flowcharts, pseudocode, explanation)
+
+## Steps from algorithm to code
+(process and justification of chosen language)
+
+## Development process
+(including challenges faced and how they were addressed)
+
+## Debugging process and IDE features used
+(breakpoints, step-through, error logs, monitoring)
+
+## Coding standards applied and their importance
+
+## Enhancements and optimisation of the algorithm
+
+## Evaluation of algorithm vs final program, role of IDE, and coding standards
+
+## Harvard-style in-text citations and full bibliography
