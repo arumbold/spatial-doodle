@@ -21,12 +21,14 @@ See the [LICENCE](LICENCE) file for details.
 
 ## Installation Requirements
 
-**Mandatory**
+### Mandatory Technologies
+
 **Python 3** (Tested with 3.8.10 and 3.12.10)
 
-**Recommended**
-**pip** (for the )
-**git** for cloning the repository (recommended)
+### Recommended Additions
+
+**pip** (for add-on compatibility)
+**git** (to obtain and update the latest code)
 ```
 git clone https://github.com/arumbold/spatial-doodle.git
 cd spatial-doodle

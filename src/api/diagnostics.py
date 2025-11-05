@@ -6,7 +6,7 @@
 name="diagnostics.py"
 print(f'{name}::{__name__}')
 
-def run_diagnostics():
+def run_diagnostics(command_arguments=None):
     print("DIAGNOSTIC REQUESTED")
     print("BEGIN tests...")
 

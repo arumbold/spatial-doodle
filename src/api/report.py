@@ -6,7 +6,7 @@
 name="report.py"
 print(f'{name}::{__name__}')
 
-def create_report():
+def create_report(command_arguments=None):
     print("Reporty__Reporting")
 
 __all__ = [create_report]
