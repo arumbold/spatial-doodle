@@ -1,4 +1,5 @@
-# Repository Structure
+# HND Digital Technologies for England (Cyber Security)
+## Repository Structure
 
 [Back](../README.md##-Repository-Information:-spatial-doodle)
 
@@ -16,17 +17,17 @@ will be stored at __src/data__
 ### Tree View
 
 ```
-spatial-doodle                       
+spatial-doodle
 ├── docs                            # Academic Design Documents
-│   └── algorithm_designs.txt       
+│   └── algorithm_designs.txt
 ├── src                             # Project Source Files
 │   ├── data                        # Application Storage
-│   ├── modules                      
-│   │   └── code_libraries           
+│   ├── modules
+│   │   └── code_libraries
 │   ├── README.md                   # Code Comments
 │   ├── main.py                     # Main Method
-│   └── ...               
-├── LICENSE                         # 
+│   └── ...
+├── LICENSE                         #
 ├── README.md                       # Summary and Written Report
-└── requirements.txt                # 
+└── requirements.txt                #
 ```

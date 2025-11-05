@@ -29,10 +29,11 @@ def main(command_arguments):
             create_report()
         if (command == "diagnostic"):
             run_diagnostics()
+        if (command == "help"):
+            list_features()
         else:
             """Command was not recognised"""
-            for argument in command_arguments:
-                print(f"{argument}")
+            list_features(command_arguments)
 
 if (__name__ == "__main__"):
     """
