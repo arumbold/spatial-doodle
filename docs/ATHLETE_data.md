@@ -4,7 +4,7 @@
 This file describes the end-to-end algorithm process
 
 ## (START)
-### INPUT data
+### Athlete data
 
 >    name
 >    training_plan
@@ -15,7 +15,7 @@ This file describes the end-to-end algorithm process
 [Back](../README.md#start)
 
 
-#### Validate (INPUT)
+#### Validation Rules for athlete data
 
 > Limited private coaching_hours (MAX 5 hours per week)
 > Competition entry RESTRICTED to Intermediate and Elite
@@ -25,27 +25,27 @@ This file describes the end-to-end algorithm process
 > Validation errors "should prompt the user to re-enter"(Assignment Brief, 2025)
 > User errors should "display suitable messages"(Assignment Brief, 2025)
 > Months are 4 weeks in length
-[Back](../README.md#begin-process)
+[Back](../README.md#validation-and-processing)
 
 
-#### PROCESS (REGISTER NEW USER)
+#### Process to register a new athlete
 > If the user does not already exist, present the option to create.
-[Back](../README.md#begin-process)
+[Back](../README.md#validation-and-processing)
 
-#### PROCESS (OUTPUT)
+#### Process to create the reports
 
 > itemised list [of all costs for the month]
 > total cost of training and competitions for the month
 > how their current weight compares to their competition weight category.
-[Back](../README.md#begin-process)
+[Back](../README.md#process-output-data)
 
 
-### OUTPUT data
+### Report contents
 >   name
     itemised_cost_list
     monthly_cost
     weight
     competition_weight_category
-[Back](../README.md#end-process)
+[Back](../README.md#process-output-data)
 
 ## (END)
