@@ -44,16 +44,19 @@ pip install -r requirements.txt
 ## Usage
 
 To run the Graphical Application
-
-> python src/main.py
-
+```
+python src/main.py
+```
 
 To generate the monthly Training Fee Report
-> python src/main.py report
+```
+python src/main.py report
+```
 
 Other Commands available can be run in the same way
-> python  src/main.py *[command]*
-
+```
+python  src/main.py *[command]*
+```
 
 ```
 Commands available:
@@ -74,14 +77,16 @@ I will be implementing a hybrid approach - using Agile Principles and structured
 
 ## Algorithm design
 
-The choice and construction of the algorithms required for this project are intrinsincally linked to the features defined in the assessment brief.
-
-The requirement "North Sussex Judo requires a program to capture the following information"(Assignment Brief, 2025, paraphrased) gives us a list of program inputs for each athlete.
-
-I will use that list to begin defining the scope of the main control-flow algorithm.
-
 ### (START)
-These data fields are the entry point, the first step in understanding what the algorithm needs to do. Following the data path, I will include data elements in the control-flow sequence. This will create a combined control and data flow algorithm. This algorithm will illustrate the full process from data entry until the program has successfully "output the following information"(Assignment Brief, 2025).
+The choice and construction of the algorithms required for this project are intrinsincally linked to the features defined in the assessment brief. The logical starting point for the control-flow algorithm is with the data that must be entered for each athlete.  
+
+The requirement "North Sussex Judo requires a program to capture the following information"(Assignment Brief, 2025, paraphrased) and then lists a selection of fields that must be included.
+That list of inputs defines the scope of the main control-flow algorithm.
+The data fields are the entry point, the first step in understanding what the algorithm needs to do.
+Following the data path, I will include data elements in the control-flow sequence.
+This will create a combined control and data flow algorithm.
+This algorithm will illustrate the full process from data entry until
+the program has successfully "output the following information"(Assignment Brief, 2025).
 
 ### **[Enter Athlete Data](docs/ATHLETE_data.md#enter-data)**
 ### **[Is the data valid?](docs/ATHLETE_data.md#validation-rules-for-athlete-data)**
@@ -96,9 +101,19 @@ Having reached the **STOP** point of the program data algorithm. we now have a h
 *Figure 1:* Program Data Flow Algorithm (Rumbold, 2025; heyrabbiticons, 2024).
 
 
-This Algorithm detail, in two parts combines two levels of precision: The written elements linked have a medium depth, including a list of functions, data structures and validation critia. The Flowchart in Figure 1 shows that the high-level data and control flow through the application can be described visually. Performing this kind of analysis while removing some of the technical specifics lets us address early the experience and user journey from the **(START)** to the **(END)**.
+This Algorithm detail, in two parts combines two levels of precision:
+The written elements (linked above) have a medium depth, they include
+a list of functions, data structures and validation critia.
 
-With the present combination of inputs, outputs and processing stages the program's main components and external perimeter have been defined. It's almost time to map the steps required to create this, but first we need to dive deeper into a different algorithm.
+The Flowchart in Figure  1 shows that the high-level data and control flow
+through the application can be described visually. Performing this kind of
+analysis while removing some of the technical specifics lets us address
+early the experience and user journey from the **(START)** to the **(END)**.
+
+With the present combination of inputs, outputs and processing stages, the
+program's main components and external perimeter have been defined.
+It's almost time to map the steps required to create this but first
+we need to dive deeper into a different algorithm. This one will really g
 
 
 
@@ -107,7 +122,10 @@ With the present combination of inputs, outputs and processing stages the progra
 (flowcharts, pseudocode, explanation)
 
 ## Steps from algorithm to code
-(process and justification of chosen language)
+I have chosen to implement this solution using the Python language. This is a robust, portable language which is widely available and is used to great effect in various sectors.
+
+By using python, I gain access to all the libraries and community content that has been written and modules created by the TKinter is a python module that provides a great way to construct user interfaces.ugk
+The 
 
 ## Development process
 (including challenges faced and how they were addressed)

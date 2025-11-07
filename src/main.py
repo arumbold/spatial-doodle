@@ -9,7 +9,7 @@ print('BEGIN Module Load\n')
 
 import sys
 from api.report import create_report
-from api.diagnostics import run_diagnostics
+from api.diagnostics import run_diagnostics, test_rag_module4
 from modules.features import list_features
 
 def main(arguments_list):
@@ -33,6 +33,7 @@ def main(arguments_list):
             create_report(command_arguments)
         elif (command == "diagnostic"):
             run_diagnostics(command_arguments)
+            test_rag_module4()
         elif (command == "help"):
             list_features(command_arguments)
         else:
